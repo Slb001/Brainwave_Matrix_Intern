@@ -1,4 +1,3 @@
 #test_import.py
-
-import requests
-print("you're good to go, Salma!")
+import psutil
+print(psutil.__version__)

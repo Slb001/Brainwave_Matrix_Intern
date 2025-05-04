@@ -57,7 +57,7 @@ def main():
     for reason in reasons:
         print(f"- {reason}")
 
-    if score >= 4:
+    if score >= 0:
         print("🔴 This URL is likely **Malicious**")
     elif score >= 2:
         print("🟠 This URL is **Suspicious**")
